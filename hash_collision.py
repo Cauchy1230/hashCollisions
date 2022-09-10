@@ -26,7 +26,7 @@ def hash_collision(k):
             x = start
             y = dic.get(last_k)
             break
-        dic[start] = last_k
+        dic[last_k] = start
     return (x, y)
 
 
