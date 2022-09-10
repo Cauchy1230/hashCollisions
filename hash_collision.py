@@ -27,6 +27,9 @@ def hash_collision(k):
             y = dic.get(last_k)
             break
         dic[last_k] = start
+    x = bytes(x, 'utf-8')
+    y = bytes(y, 'utf-8')
+    print(x,y)
     return (x, y)
 
 
